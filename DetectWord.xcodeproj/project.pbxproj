@@ -15,6 +15,10 @@
 		33EEA2DE25DF81420012E09C /* DetectWord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33EEA2DC25DF81420012E09C /* DetectWord.xcdatamodeld */; };
 		33EEA2E925DF81420012E09C /* DetectWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EEA2E825DF81420012E09C /* DetectWordTests.swift */; };
 		33EEA2F425DF81420012E09C /* DetectWordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EEA2F325DF81420012E09C /* DetectWordUITests.swift */; };
+		33EEA30525DF81C30012E09C /* DetectWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EEA30425DF81C30012E09C /* DetectWord.swift */; };
+		33EEA30A25DF81D80012E09C /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EEA30925DF81D80012E09C /* MyModel.swift */; };
+		33EEA30F25DF84EF0012E09C /* MyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EEA30E25DF84EF0012E09C /* MyTextView.swift */; };
+		33EEA31425DFF5110012E09C /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EEA31325DFF5110012E09C /* TextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		33EEA2EF25DF81420012E09C /* DetectWordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetectWordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33EEA2F325DF81420012E09C /* DetectWordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectWordUITests.swift; sourceTree = "<group>"; };
 		33EEA2F525DF81420012E09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33EEA30425DF81C30012E09C /* DetectWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectWord.swift; sourceTree = "<group>"; };
+		33EEA30925DF81D80012E09C /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
+		33EEA30E25DF84EF0012E09C /* MyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextView.swift; sourceTree = "<group>"; };
+		33EEA31325DFF5110012E09C /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				33EEA2DF25DF81420012E09C /* Info.plist */,
 				33EEA2DC25DF81420012E09C /* DetectWord.xcdatamodeld */,
 				33EEA2D725DF81420012E09C /* Preview Content */,
+				33EEA30425DF81C30012E09C /* DetectWord.swift */,
+				33EEA30925DF81D80012E09C /* MyModel.swift */,
+				33EEA30E25DF84EF0012E09C /* MyTextView.swift */,
+				33EEA31325DFF5110012E09C /* TextViewController.swift */,
 			);
 			path = DetectWord;
 			sourceTree = "<group>";
@@ -266,9 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				33EEA2DE25DF81420012E09C /* DetectWord.xcdatamodeld in Sources */,
+				33EEA30A25DF81D80012E09C /* MyModel.swift in Sources */,
 				33EEA2DB25DF81420012E09C /* Persistence.swift in Sources */,
+				33EEA30F25DF84EF0012E09C /* MyTextView.swift in Sources */,
 				33EEA2D425DF813F0012E09C /* ContentView.swift in Sources */,
 				33EEA2D225DF813F0012E09C /* DetectWordApp.swift in Sources */,
+				33EEA30525DF81C30012E09C /* DetectWord.swift in Sources */,
+				33EEA31425DFF5110012E09C /* TextViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,8 +15,12 @@ struct ContentView: View {
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
-
+    var myModel = MyModel()
     var body: some View {
+        VStack {
+            TextWrapper()
+            DetailView(model: myModel)
+     
         List {
             ForEach(items) { item in
                 Text("Item at \(item.timestamp!, formatter: itemFormatter)")
@@ -32,6 +36,7 @@ struct ContentView: View {
                 Label("Add Item", systemImage: "plus")
             }
         }
+    }
     }
 
     private func addItem() {
@@ -75,6 +80,6 @@ private let itemFormatter: DateFormatter = {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        ContentView().environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
     }
 }
